@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    height: 50px;
+    display: flex;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.042);
+    flex-direction: row;
+    background-color: white;
+}
+header img {
+    width: 40px;
+}
+header .logo {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.general{
+    width: 100%;
+    min-height: 100vh;
+}
+main{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+}
+main .input_div{
+    padding: 25px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.042);
+}
+main input {
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    border: 0px;
+    font-size: medium;
+    padding: 10px 15px;
+    margin: 10px;
+}
+main .input_div .input_info{
+    width: 100%;
+}
+main .input_div .input_info input{
+    width: 92%;
+}
+main .input_div .input_info_bottom{
+    width: 100%;
+}
+main .input_div .input_info_bottom input{
+    width: 20%;
+}
